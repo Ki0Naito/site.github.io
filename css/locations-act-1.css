@@ -1,0 +1,297 @@
+.map {
+  width: 100%;
+  height: 1470px;
+  background-image: url('../img/locations-act-1/background-header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% -50px;
+  padding: 0 8.5%;
+}
+.map__info {
+  padding-top: 8%;
+  text-align: center;
+  width: 50%;
+}
+.map__info h2 {
+  font-size: 70px;
+}
+.map__info h3 {
+  margin-top: -20px;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+.map__info p {
+  color: #c4c4c4;
+  font-size: 26px;
+  margin: 8px 0 0 6px;
+  white-space: pre;
+}
+.map__tristram-map {
+  margin-top: 170px;
+  width: 100%;
+  overflow-x: scroll;
+}
+.map__tristram-map img {
+  width: 1195px;
+}
+.map__tristram-map::-webkit-scrollbar {
+  height: 4px;
+}
+.map__tristram-map::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+.map__tristram-map::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa;
+  border-radius: 20px;
+}
+.map__mark {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.map__mark img {
+  width: 42px;
+}
+.map__mark img.boss {
+  width: 73px;
+}
+.map__mark p {
+  font-size: 28px;
+  margin-left: 10px;
+}
+.map hr {
+  width: 100%;
+  margin-top: 51.7px;
+  height: 1px;
+  opacity: 0.7;
+}
+.locations__buttons {
+  width: 100%;
+  height: 168px;
+  background-color: #0a0707;
+  display: flex;
+  align-items: center;
+  padding: 0 8.5%;
+}
+.locations__btn {
+  background-color: #523132;
+  font-size: 28px;
+  padding: 0.8% 0;
+  text-align: center;
+  width: 260px;
+  margin-right: 10px;
+}
+.locations__btn--second {
+  width: 325px;
+}
+.locations__btn:hover {
+  background-color: #362021;
+  cursor: pointer;
+}
+.locations__btn:hover span {
+  cursor: pointer;
+}
+.locations__cards {
+  width: 100%;
+  background-image: url('../img/locations-act-1/background-stone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5% 8.5% 6.5%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.7%;
+}
+.locations__cards#with-boss-cards {
+  display: none;
+}
+.locations__cards#with-boss-cards .locations__one-card {
+  filter: grayscale(100%);
+  cursor: default;
+}
+.locations__cards#with-boss-cards .with-boss {
+  filter: grayscale(0%);
+  order: -14;
+  cursor: pointer;
+}
+.locations__cards#with-boss-cards .with-boss:hover {
+  filter: contrast(110%) brightness(80%);
+}
+.locations__one-card {
+  width: 24.4%;
+  height: 210px;
+  margin-bottom: 10px;
+  background-image: url('../img/locations-act-1/new-tristram.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 10px 15px;
+  cursor: pointer;
+}
+.locations__one-card p {
+  font-size: 21px;
+  cursor: pointer;
+}
+.locations__one-card:hover {
+  filter: contrast(110%) brightness(80%);
+}
+.locations__one-card--wailing-hollow {
+  background-image: url('../img/locations-act-1/wailing-hollow.png');
+}
+.locations__one-card--cemetery {
+  background-image: url('../img/locations-act-1/cemetery-of-the-damned.png');
+}
+.locations__one-card--dead-fields {
+  background-image: url('../img/locations-act-1/dead-fields.png');
+}
+.locations__one-card--flooded-temple {
+  background-image: url('../img/locations-act-1/flooded-temple.png');
+}
+.locations__one-card--rotting-forest {
+  background-image: url('../img/locations-act-1/rotting-forest.png');
+}
+.locations__one-card--ruins-of-tristram {
+  background-image: url('../img/locations-act-1/ruins-of-tristram.png');
+}
+.locations__one-card--the-cathedral {
+  background-image: url('../img/locations-act-1/the-cathedral.png');
+}
+.locations__one-card--royal-tombs {
+  background-image: url('../img/locations-act-1/royal-tombs.png');
+}
+.locations__one-card--basement {
+  background-image: url('../img/locations-act-1/basement-of-wortham-chapel.png');
+}
+.locations__one-card--caves-of-arana {
+  background-image: url('../img/locations-act-1/caves-of-arana.png');
+}
+.locations__one-card--southern-highlands {
+  background-image: url('../img/locations-act-1/southern-highlands.png');
+}
+.locations__one-card--northern-highlands {
+  background-image: url('../img/locations-act-1/northern-highlands.png');
+}
+.locations__one-card--castle-courtyard {
+  background-image: url('../img/locations-act-1/castle-courtyard.png');
+}
+.locations__one-card--halls-of-agony {
+  background-image: url('../img/locations-act-1/halls-of-agony.png');
+}
+.focus {
+  background-color: #7C4345;
+}
+.focus:hover {
+  background-color: #7C4345;
+  cursor: default;
+}
+.focus:hover span {
+  cursor: default;
+}
+/* Модальный (фон) */
+.modal {
+  display: none;
+  /* Скрыто по умолчанию */
+  position: fixed;
+  /* Оставаться на месте */
+  z-index: 1000;
+  /* Сидеть на вершине */
+  padding-top: 100px;
+  /* Расположение коробки */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Полная ширина */
+  height: 100%;
+  /* Полная высота */
+  overflow: auto;
+  /* Включите прокрутку, если это необходимо */
+  background-color: rgba(0, 0, 0, 0.6);
+  /*Черный с непрозрачностью */
+}
+/* Модальное содержание */
+.modal-content {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-top: -40px;
+  padding: 0;
+  width: 80%;
+  height: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  background-image: url('../img/locations-act-1/modal/new-tristram.png');
+  background-size: cover;
+  background-position: center;
+  animation: animatetop 0.4s;
+  display: flex;
+  align-items: flex-end;
+  overflow-y: scroll;
+}
+.modal-content__info {
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2% 3%;
+}
+.modal-content__info h5 {
+  font-size: 28px;
+}
+.modal-content__info p {
+  margin-top: 6px;
+  font-size: 16px;
+  color: #a3a3a3;
+}
+.modal-content--wailing-hollow {
+  background-image: url('../img/locations-act-1/modal/wailing-hollow.jpeg');
+}
+.modal-content--cemetery {
+  background-image: url('../img/locations-act-1/modal/cemetery-of-the-damned.jpeg');
+}
+.modal-content--dead-fields {
+  background-image: url('../img/locations-act-1/modal/dead-fields.jpeg');
+}
+.modal-content--flooded-temple {
+  background-image: url('../img/locations-act-1/modal/flooded-temple.jpeg');
+}
+.modal-content--rotting-forest {
+  background-image: url('../img/locations-act-1/modal/rotting-forest.jpeg');
+}
+.modal-content--ruins-of-tristram {
+  background-image: url('../img/locations-act-1/modal/ruins-of-tristram.jpeg');
+}
+.modal-content--the-cathedral {
+  background-image: url('../img/locations-act-1/modal/the-cathedral.jpeg');
+}
+.modal-content--royal-tombs {
+  background-image: url('../img/locations-act-1/modal/royal-tombs.jpeg');
+}
+.modal-content--basement {
+  background-image: url('../img/locations-act-1/modal/basement-of-wortham-chapel.jpeg');
+}
+.modal-content--caves-of-arana {
+  background-image: url('../img/locations-act-1/modal/caves-of-arana.jpeg');
+}
+.modal-content--southern-highlands {
+  background-image: url('../img/locations-act-1/modal/southern-highlands.jpeg');
+}
+.modal-content--northern-highlands {
+  background-image: url('../img/locations-act-1/modal/northern-highlands.jpeg');
+}
+.modal-content--castle-courtyard {
+  background-image: url('../img/locations-act-1/modal/castle-courtyard.jpeg');
+}
+.modal-content--halls-of-agony {
+  background-image: url('../img/locations-act-1/modal/halls-of-agony.jpeg');
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,548 @@
+@media screen and (max-width: 700px) {
+	/* Главная */
+	.background-header {
+		height: 400px;
+		
+		&__box-logo{
+			align-items: flex-start;
+			
+			img {
+				margin: -7% -20px 0 0;
+				width: 110%;
+			}
+		}
+		&__box-logo {
+			height: 300px;
+			background-position: 10px center;
+		}
+		
+		&__diablo {
+			display: none;
+		}
+	}
+	.menu-for-mobile {
+		.not-h1 {
+			display: none;
+		}
+		&__logo {
+			margin: 5px 0 0 5px;
+		}
+	}
+	.section-story {
+		height: 1050px;
+		&__img {
+			width: 90%;
+			margin: 5% 0 0 4%;
+		}
+		&__info {
+			width: 80%;
+			margin: 50% 30% 0 35%;
+			h2 {
+				margin-left: -20px;
+			}
+		}
+		&__btn {
+			margin-left: -30px;
+		}
+	}
+	/* Об игре */
+	.satellites {
+		height: 800px;
+		background-image: url('../img/about-the-game/background-companion-full-700.png');
+		
+		&__info {
+			h3 {
+				font-size: 52px;
+				margin-bottom: 15px;
+			}
+			
+			p {
+				margin-bottom: 20px;
+				font-size: 18px;
+				text-align: left;
+			}
+		}
+		&__buttons {
+			a {
+				width: 250px;
+			}
+		}
+		&__one-btn {
+			width: 250px;
+		}
+	}
+	/* Тристрам */
+	.locations {
+		&__one-card {
+			width: 49.5%;
+			
+			p {
+				font-size: 18px;
+			}
+		}
+		&__buttons {
+			flex-wrap: wrap;
+		}
+		&__btn {
+			font-size: 32px;
+			padding: 1% 0;
+		}
+	}
+	.modal-content {
+		background-size: 120%;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #000000;
+		padding-top: 55%;
+		align-items: flex-start;
+		&__info {
+			background-color: transparent;
+		}
+	}
+	/* */
+	.alert-content {
+		width: 370px;
+		
+		img {
+			width: 100px;
+			height: 100px;
+		}
+		&__info {
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+/* Охотник на демонов */
+	.demon-hunter-story {
+		background-image: url('../img/characters-demon-hunter/demon-hunter-background-whole.png');
+		background-size: 100%;
+		background-position: center top;
+		height: 1500px;
+		
+		.over-img {
+			width: 100%;
+			height: 1142px;
+		}
+		&__heroes {
+			width: 100%;
+			margin: 2% 0 0;
+			flex-wrap: wrap;
+			img {
+				width: 22%;
+			}
+		}
+		&__info {
+			width: 100%;
+			margin: 90% 0 0;
+			padding: 0.5% 5%;
+			
+			p {
+				width: 100%;
+			}
+			h2 {
+				text-align: center;
+				font-size: 30px;
+			}
+			
+			h3 {
+				text-align: center;
+				font-size: 22px;
+			}
+		}
+		&__bg-img {
+			display: none;
+		}
+	}
+	.about-character {
+		height: 2500px;
+		&__part-2 {
+			img {
+				width: 95%;
+				margin-left: 0px;
+			}
+		}
+	}
+	/* Тристрам */
+	.map {
+		&__info {
+			p {
+				font-size: 22px;
+			}
+		}
+		hr {
+			margin-top: 70px;
+		}
+	}
+	.locations {
+		&__one-card {
+			width: 100%;
+			
+			p {
+				font-size: 24px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	/* Главная */
+	.dropdown-content {
+		width: 260px;
+		padding-bottom: 2%;
+		
+		li {
+			width: 80%;
+			margin-left: 10%;
+			padding: 3%;
+		}
+	}
+	.background-header {
+		height: 300px;
+		background-position: center;
+		
+		&__box-logo {
+			background-size: cover;
+			height: 300px;
+			background-position: center -50px;
+		}
+		
+		&__diablo {
+			display: none;
+		}
+	}
+	.menu-for-mobile {
+		&__list {
+			li {
+				font-size: 18px;
+			}
+		}
+	}
+	.section-story {
+		max-width: 500px;
+		overflow: hidden;
+		height: 1200px;
+		&__img {
+			width: 130%;
+			margin-left: 6%;
+		}
+		&__info {
+			margin: 90% 25% 0;
+			font-size: 18px;
+			
+			h2 {
+				margin-left: 0;
+				font-size: 28px;
+			}
+		}
+		&__btn {
+			margin-left: 0;
+		}
+	}
+	.section-location {
+		padding: 10% 10% 12%;
+		h2 {
+			font-size: 25px;
+		}
+		&__5-card {
+			margin-top: 15%;
+			a {
+				width: 85%;
+				
+				.section-location__card {
+					width: 100%;
+				}
+			}
+		}
+		&__card {
+			background-position: center;
+			width: 85%;
+		}
+	}
+	.section-heroes {
+		height: 1850px;
+		
+		&__cards {
+			justify-content: center;
+			row-gap: 40px;
+			background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0));
+			.one-hero-card {
+				width: 80%;
+				
+				p {
+					width: 100%;
+					font-size: 28px;
+					
+				}
+			}
+			
+			a {
+				width: 80%;
+			}
+		}
+		
+		&__bg-necromancer {
+			display: none;
+		}
+	}
+	.footer {
+		&__info {
+			row-gap: 25px;
+		}
+		&__platforms {
+			width: 250px;
+			
+			img {
+				height: 50px;
+			}
+		}
+		&__btn {
+			width: 250px;
+			height: 56px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0.8% 2%;
+			margin-bottom: 2.8%;
+		}
+	}
+	/* Об игре */
+	.introduction {
+		&__video {
+			width: 100%;
+			min-width: 280px;
+		}
+		&__block-1 {
+			height: 60%;
+		}
+		&__block-2 {
+			margin-top: 5%;
+			h3 {
+				text-align: center;
+			}
+			p {
+				width: 95%;
+				text-align: left;
+			}
+		}
+		&__img {
+			margin-top: 1%;
+			margin-top: 10%;
+			column-gap: 1%;
+		}
+	}
+	.equipment {
+		height: 800px;
+		background-image: url('../img/about-the-game/background-equipment-500.png');
+		background-position: center 0%;
+		padding: 0 8%;
+		justify-content: flex-end;
+		
+		h3 {
+			font-size: 28px;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+	}
+	.craft {
+		h3 {
+			font-size: 40px;
+		}
+		
+		p {
+			font-size: 16px;
+			text-align: left;
+			
+		}
+		
+		&__nps {
+			margin-top: 3.5%;
+			width: 95%;
+			display: flex;
+			justify-content: space-between;
+			
+			a {
+				width: 100px;
+				
+				.craft__one-nps {
+					width: 100%;
+				}
+			}
+		}
+		&__one-nps {
+			p {
+				text-align: center;
+			}
+		}
+	}
+	/* Тристрам */
+	.map {
+		&__info {
+			h2 {
+				font-size: 60px;
+			}
+			
+			h3 {
+				font-size: 26px;
+			}
+			p {
+				font-size: 22px;
+				white-space: pre-wrap;
+				text-align: start;
+				br {
+					display: none;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	/* Главная */
+	.section-heroes {
+		height: 1730px;
+	}
+	/* Об игре */
+	.introduction {
+		height: 1404px;
+		&__video {
+			video {
+				display: none;
+			}
+		}
+		&__btn {
+			margin-top: 0%;
+		}
+	}
+	.satellites {
+		&__info {
+			width: 80%;
+			h3 {
+				font-size: 46px;
+			}
+		}
+	}
+	/* Охотник на демонов */
+	.demon-hunter-story {
+		background-position: center top;
+		height: 1700px;
+		
+		&__heroes {
+			img {
+				width: 25%;
+			}
+		}
+		&__info {
+			margin: 70% 0 0;
+			padding-bottom: 5%;
+		}
+	}
+	.about-character {
+		&__part-1-info {
+			
+			h4 {
+				font-size: 35px;
+			}
+		}
+		&__part-2-info {
+			h4 {
+				font-size: 35px;
+			}
+		}
+	}
+	/* Тристрам */
+	.map {
+		&__info {
+			h3 {
+				font-size: 22px;
+			}
+		}
+		&__tristram-map {
+			margin-top: 120px;
+		}
+		hr {
+			display: none;
+		}
+	}
+	.modal-content {
+		height: 700px;
+		&__info {
+			h5 {
+				font-size: 22px;
+			}
+		}
+	}
+	/* */
+	.alert-content {
+		width: 260px;
+		
+		img {
+			width: 50px;
+			height: 50px;
+		}
+		&__info {
+			h5 {
+				font-size: 16px;
+			}
+			p {
+				&:first-of-type {
+					display: none;
+				}
+				&:last-of-type {
+					display: block;
+					font-size: 13px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 300px) {
+	/* Главная */
+	.section-story {
+		&__info {
+			margin: 110% 25% 0;
+			
+			h2 {
+				font-size: 28px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+		&__btn {
+			width: 230px;
+		}
+	}
+	.section-heroes {
+		height: 1650px;
+	}
+	.footer {
+		&__img {
+			font-size: 16px;
+		}
+	}
+	/* Об игре */
+	.introduction {
+		height: 1704px;
+		&__block-1 {
+			height: 70%;
+		}
+	}
+	.equipment {
+		height: 900px;
+	}
+	.satellites {
+		&__info {
+			h3 {
+				font-size: 40px;
+			}
+		}
+	}
+	/* Охотник на демонов */
+	.about-character {
+		height: 2800px;
+	}
+}

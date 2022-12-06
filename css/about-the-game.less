@@ -1,0 +1,310 @@
+@bg: #0A0707;
+@btn: #523132;
+@btn-hov: #362021;
+
+.introduction {
+	width: 100%;
+	height: 1204px;
+	background-image: url('../img/about-the-game/background-header.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 60% 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	&__block-1 {
+		margin-top: 10px;
+		width: 73%;
+		height: 43%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&__info {
+		width: 50%;
+		
+		h2 {
+			font-size: 42px;
+			margin-bottom: 8px;
+		}
+		
+		p {
+			font-size: 20px;
+			color: #a7a7a7;
+			line-height: 27px;
+			
+			&:first-of-type {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	
+	&__video {
+		margin-top: 2%;
+		width: 380px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		video {
+			border: 5px solid black;
+			width: 100%;
+		}
+	}
+	
+	&__btn {
+		background-color: @btn;
+		width: 250px;
+		text-align: center;
+		margin-top: 7%;
+		padding: 3% 0;
+		
+		span {
+			font-size: 19px;
+		}
+		
+		&:hover {
+			background-color: @btn-hov;
+			cursor: pointer;
+			
+			span {
+				cursor: pointer;
+			}
+		}
+	}
+	
+	&__block-2 {
+		margin-top: 8%;
+		width: 90%;
+		height: 100-43%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		h3 {
+			font-size: 34px;
+		}
+		
+		p {
+			width: 65%;
+			font-size: 22px;
+			text-align: center;
+			color: #a7a7a7;
+		}
+	}
+	
+	&__img {
+		margin-top: 1%;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		column-gap: 5.6%;
+	}
+	
+	&__img-one {
+		width: 255px;
+		height: 412px;
+		background-image: url('../img/about-the-game/upgrade-monk-1.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-width: 3px;
+		border-style: solid;
+		border-image-slice: 1;
+		border-image-source: linear-gradient(90deg, #800400, #FDD48C, #800400);
+		
+		&--second {
+			background-image: url('../img/about-the-game/upgrade-monk-2.png');
+		}
+		&--third {
+			background-image: url('../img/about-the-game/upgrade-monk-3.png');
+		}
+	}
+}
+
+.equipment {
+	width: 100%;
+	height: 390px;
+	background-image: url('../img/about-the-game/background-equipment.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0 8% 0 36.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	h3 {
+		font-size: 39px;
+	}
+	
+	p {
+		font-size: 18px;
+		color: #c4c4c4;
+		line-height: 25px;
+		
+		&:last-of-type {
+			margin-top: 2.1%;
+		}
+	}
+	
+	&__btn {
+		background-color: @btn;
+		width: 250px;
+		text-align: center;
+		margin-top: 2.3%;
+		padding: 1.7% 0;
+		
+		span {
+			font-size: 19px;
+		}
+		
+		&:hover {
+			background-color: @btn-hov;
+			cursor: pointer;
+			
+			span {
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.craft {
+	width: 100%;
+	height: 390px;
+	background-image: url('../img/about-the-game/background-craft.png');
+	background-size: cover;
+	background-position: right;
+	padding: 0 50% 0 9%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+	h3 {
+		font-size: 50px;
+	}
+	
+	p {
+		width: 100%;
+		font-size: 16px;
+		text-align: center;
+		color: #c4c4c4;
+		
+	}
+	
+	&__nps {
+		margin-top: 3.5%;
+		width: 430px;
+		display: flex;
+		justify-content: space-between;
+		
+		a {
+			width: 100px;
+			
+			.craft__one-nps {
+				width: 100%;
+			}
+		}
+	}
+	
+	&__one-nps {
+		width: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		img {
+			border: 3px solid #3a3a3a;
+			width: 100%;
+		}
+		
+		p {
+			font-size: 18px;
+			margin-top: 5px;
+		}
+		
+		&:hover {
+			
+			img {
+				box-shadow: 0 0 6px rgba(176, 122, 88, 0.829);
+				cursor: pointer;
+				border: 3px solid #634a3b;
+			}
+			p {
+				cursor: pointer;
+			}
+		} 
+	}
+}
+
+.satellites {
+	width: 100%;
+	height: 390px;
+	background-image: url('../img/about-the-game/background-companion.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	&__info {
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0));
+		margin-top: 5.5%;
+		width: 56%;
+		
+		h3 {
+			text-align: center;
+			font-size: 52px;
+		}
+		
+		p {
+			margin: -1% 0 1%;
+			font-size: 19px;
+			text-align: center;
+			color: #c4c4c4;
+		}
+	}
+	
+	&__buttons {
+		margin-top: 1%;
+		width: 64%;
+		display: flex;
+		justify-content: space-between;
+		
+		a {
+			width: 250px;
+			
+			.satellites__one-btn {
+				width: 100%;
+				padding: 15px 0;
+			}
+		}
+	}
+	
+	&__one-btn {
+		background-color: @btn;
+		width: 250px;
+		text-align: center;
+		padding: 15px 0;
+		
+		span {
+			font-size: 20px;
+		}
+		
+		&:hover {
+			background-color: @btn-hov;
+			cursor: pointer;
+			
+			span {
+				cursor: pointer;
+			}
+		}
+	}
+}

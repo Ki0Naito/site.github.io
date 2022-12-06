@@ -1,0 +1,295 @@
+@media screen and (min-width: 1500px) {
+  .menu h1 {
+    font-size: 20px;
+    width: 120px;
+  }
+  .menu__list {
+    column-gap: 4%;
+  }
+  .menu__list li {
+    font-size: 20px;
+  }
+  .footer__btn {
+    width: 460px;
+    height: 60px;
+    font-size: 26px;
+  }
+  .footer__img {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* Главная */
+  .background-header {
+    height: 900px;
+  }
+  .background-header__box-logo {
+    height: 750px;
+  }
+  .section-story {
+    height: 1200px;
+  }
+  .section-heroes {
+    height: 1100px;
+  }
+  /* Охотник на демонов */
+  .demon-hunter-story .over-img {
+    width: 100%;
+  }
+  .demon-hunter-story__info {
+    padding: 0.5% 0 2%;
+  }
+  .demon-hunter-story__info h2 {
+    font-size: 50px;
+  }
+  .demon-hunter-story__info h3 {
+    font-size: 30px;
+  }
+  .demon-hunter-story__info p {
+    margin: 3% 0 0 -0.5%;
+    width: 900px;
+    line-height: 32px;
+    font-size: 26px;
+  }
+  .demon-hunter-story__bg-img {
+    height: 130%;
+    margin: -48px 0 0 0px;
+    filter: grayscale(20%);
+  }
+  .characteristics {
+    padding: 70px 4% 110px 3.5%;
+  }
+  .characteristics__one {
+    width: 310px;
+  }
+  .characteristics__one img {
+    width: 120px;
+  }
+  .characteristics__one h4 {
+    font-size: 28px;
+  }
+  .characteristics__one p {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .about-character {
+    height: 2000px;
+  }
+  .about-character__part-1-info h4 {
+    margin-left: -15%;
+  }
+  .about-character__part-1-info div p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .about-character__part-2-info div p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  /* Тристрам */
+  .map {
+    height: 1670px;
+  }
+  .map__tristram-map {
+    margin-top: 170px;
+  }
+  .map__tristram-map img {
+    width: 100%;
+  }
+  .locations__btn {
+    font-size: 32px;
+    width: 300px;
+    margin-right: 15px;
+  }
+  .locations__btn--second {
+    width: 370px;
+  }
+  .locations__one-card p {
+    font-size: 26px;
+  }
+  /* */
+  .alert-content {
+    width: 800px;
+  }
+  .alert-content img {
+    width: 130px;
+    height: 130px;
+  }
+  .alert-content__info h5 {
+    font-size: 30px;
+  }
+  .alert-content__info p {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1750px) {
+  /* Главная */
+  .section-story__info h2 {
+    font-size: 50px;
+  }
+  .section-story__info p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .section-story__btn {
+    font-size: 26px;
+    width: 350px;
+  }
+  .section-location h2 {
+    font-size: 40px;
+  }
+  .section-location p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .section-location__5-card a {
+    width: 280px;
+  }
+  .section-location__card {
+    width: 280px;
+  }
+  .section-location__card h3 {
+    font-size: 30px;
+  }
+  .section-location__card p {
+    font-size: 20px;
+  }
+  .section-heroes__info h3 {
+    font-size: 40px;
+  }
+  .section-heroes__info p {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .section-heroes__cards {
+    margin-top: 4%;
+  }
+  /* Об игре */
+  .introduction {
+    height: 1500px;
+  }
+  .introduction__info {
+    width: 50%;
+  }
+  .introduction__info h2 {
+    font-size: 50px;
+  }
+  .introduction__info p {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .introduction__video {
+    width: 500px;
+  }
+  .introduction__btn {
+    width: 300px;
+  }
+  .introduction__btn span {
+    font-size: 24px;
+  }
+  .introduction__block-2 h3 {
+    font-size: 42px;
+  }
+  .introduction__block-2 p {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .introduction__img-one {
+    width: 300px;
+    height: 500px;
+  }
+  .equipment {
+    height: 480px;
+  }
+  .equipment h3 {
+    font-size: 42px;
+  }
+  .equipment p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .equipment__btn {
+    width: 300px;
+  }
+  .equipment__btn span {
+    font-size: 26px;
+  }
+  .craft {
+    height: 480px;
+    padding: 0 45% 0 4%;
+  }
+  .craft h3 {
+    font-size: 46px;
+  }
+  .craft p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .craft__nps {
+    width: 550px;
+  }
+  .craft__nps a {
+    width: 140px;
+  }
+  .craft__one-nps {
+    width: 140px;
+  }
+  .craft__one-nps p {
+    font-size: 24px;
+  }
+  .satellites {
+    height: 480px;
+  }
+  .satellites__info h3 {
+    font-size: 50px;
+  }
+  .satellites__info p {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .satellites__buttons a {
+    width: 300px;
+  }
+  .satellites__one-btn {
+    width: 300px;
+  }
+  .satellites__one-btn span {
+    font-size: 26px;
+  }
+  /* Охотник на демонов */
+  .characteristics {
+    padding: 70px 4% 110px 3.5%;
+  }
+  .characteristics__one {
+    width: 360px;
+  }
+  .characteristics__one img {
+    width: 120px;
+  }
+  .characteristics__one h4 {
+    font-size: 28px;
+  }
+  .characteristics__one p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  /* Тристрам */
+  .map {
+    height: 1780px;
+  }
+  .map__info {
+    padding-top: 6%;
+  }
+  .map__info h2 {
+    font-size: 90px;
+  }
+  .map__info h3 {
+    font-size: 45px;
+  }
+  .map__info p {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .map__tristram-map {
+    margin-top: 140px;
+  }
+}

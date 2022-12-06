@@ -1,0 +1,211 @@
+.background-header {
+  width: 100%;
+  height: 685px;
+  background-image: url('../img/main/background-header.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.background-header__box-logo {
+  z-index: 10;
+  width: 100%;
+  height: 635px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.background-header__box-logo img {
+  margin-left: 2.5%;
+  width: 84.5%;
+}
+.background-header__diablo {
+  width: 82.6%;
+  height: 90%;
+  background-image: url('../img/main/diablo-background.png');
+  background-size: cover;
+  background-position: center;
+  align-self: flex-end;
+}
+.section-story {
+  width: 100%;
+  height: 830px;
+  background-image: url('../img/main/background-stone-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.section-story__info {
+  width: 31%;
+  margin: 22px 0 0 59.6%;
+  height: 800px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 24px;
+}
+.section-story__info h2 {
+  font-size: 35px;
+}
+.section-story__info p {
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 27px;
+  color: #c4c4c4;
+}
+.section-story__btn {
+  font-size: 20px;
+  width: 260px;
+  background-color: #523132;
+  text-align: center;
+  padding: 2.7% 0;
+}
+.section-story__btn:hover {
+  background-color: #362021;
+  cursor: pointer;
+}
+.section-story__btn:hover span {
+  cursor: pointer;
+}
+.section-story__img {
+  width: 68.5%;
+  margin: 0.1% 0 0 -0.1%;
+}
+.section-location {
+  padding: 2.2% 8.7% 7.1%;
+  width: 100%;
+  background-color: #0a0707;
+}
+.section-location h2 {
+  font-size: 34.6px;
+}
+.section-location p {
+  margin-top: 5px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #c4c4c4;
+}
+.section-location__5-card {
+  margin-top: 3.3%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-location__5-card a {
+  width: 210px;
+}
+.section-location__5-card a .section-location__card {
+  width: 100%;
+}
+.section-location__card {
+  padding: 0 0 10px 14px;
+  height: 295px;
+  width: 210px;
+  border: 2px solid white;
+  background-image: url('../img/main/tristram.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.section-location__card h3 {
+  font-size: 26px;
+}
+.section-location__card p {
+  margin-top: -10px;
+  font-size: 12px;
+}
+.section-location__card--caldeum {
+  background-image: url('../img/main/caldeum.png');
+}
+.section-location__card--arreat {
+  background-image: url('../img/main/mount-arreat.png');
+}
+.section-location__card--heaven {
+  background-image: url('../img/main/higher-heaven.png');
+}
+.section-location__card--heaven h3 {
+  font-size: 23px;
+}
+.section-location__card--westmarch {
+  background-image: url('../img/main/westmarch.png');
+}
+.section-location__card:hover {
+  filter: brightness(75%) contrast(120%);
+  cursor: pointer;
+}
+.section-location__card:hover h3 {
+  cursor: pointer;
+}
+.section-location__card:hover p {
+  cursor: pointer;
+}
+.section-heroes {
+  overflow-x: hidden;
+  width: 100%;
+  height: 875px;
+  background-image: url('../img/main/background-stone-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.section-heroes__info {
+  position: absolute;
+  width: 56%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0 0 3.5%;
+}
+.section-heroes__info h3 {
+  font-size: 29px;
+}
+.section-heroes__info p {
+  font-size: 22px;
+  color: #c4c4c4;
+}
+.section-heroes__cards {
+  margin-top: 10%;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6%;
+}
+.section-heroes__cards .one-hero-card {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7%;
+}
+.section-heroes__cards .one-hero-card img {
+  width: 100%;
+}
+.section-heroes__cards .one-hero-card p {
+  font-size: 19px;
+  margin-top: -3px;
+}
+.section-heroes__cards .one-hero-card:hover {
+  filter: brightness(150%);
+  cursor: pointer;
+}
+.section-heroes__cards .one-hero-card:hover p {
+  cursor: pointer;
+}
+.section-heroes__cards a {
+  width: 42%;
+}
+.section-heroes__cards a .one-hero-card {
+  width: 100%;
+}
+.section-heroes__bg-necromancer {
+  width: 107%;
+  margin: -2.6% 0 0 8.55%;
+}

@@ -1,0 +1,256 @@
+.introduction {
+  width: 100%;
+  height: 1204px;
+  background-image: url('../img/about-the-game/background-header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction__block-1 {
+  margin-top: 10px;
+  width: 73%;
+  height: 43%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introduction__info {
+  width: 50%;
+}
+.introduction__info h2 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+.introduction__info p {
+  font-size: 20px;
+  color: #a7a7a7;
+  line-height: 27px;
+}
+.introduction__info p:first-of-type {
+  margin-bottom: 20px;
+}
+.introduction__video {
+  margin-top: 2%;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction__video video {
+  border: 5px solid black;
+  width: 100%;
+}
+.introduction__btn {
+  background-color: #523132;
+  width: 250px;
+  text-align: center;
+  margin-top: 7%;
+  padding: 3% 0;
+}
+.introduction__btn span {
+  font-size: 19px;
+}
+.introduction__btn:hover {
+  background-color: #362021;
+  cursor: pointer;
+}
+.introduction__btn:hover span {
+  cursor: pointer;
+}
+.introduction__block-2 {
+  margin-top: 8%;
+  width: 90%;
+  height: 57%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction__block-2 h3 {
+  font-size: 34px;
+}
+.introduction__block-2 p {
+  width: 65%;
+  font-size: 22px;
+  text-align: center;
+  color: #a7a7a7;
+}
+.introduction__img {
+  margin-top: 1%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 5.6%;
+}
+.introduction__img-one {
+  width: 255px;
+  height: 412px;
+  background-image: url('../img/about-the-game/upgrade-monk-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-width: 3px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #800400, #fdd48c, #800400);
+}
+.introduction__img-one--second {
+  background-image: url('../img/about-the-game/upgrade-monk-2.png');
+}
+.introduction__img-one--third {
+  background-image: url('../img/about-the-game/upgrade-monk-3.png');
+}
+.equipment {
+  width: 100%;
+  height: 390px;
+  background-image: url('../img/about-the-game/background-equipment.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 8% 0 36.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.equipment h3 {
+  font-size: 39px;
+}
+.equipment p {
+  font-size: 18px;
+  color: #c4c4c4;
+  line-height: 25px;
+}
+.equipment p:last-of-type {
+  margin-top: 2.1%;
+}
+.equipment__btn {
+  background-color: #523132;
+  width: 250px;
+  text-align: center;
+  margin-top: 2.3%;
+  padding: 1.7% 0;
+}
+.equipment__btn span {
+  font-size: 19px;
+}
+.equipment__btn:hover {
+  background-color: #362021;
+  cursor: pointer;
+}
+.equipment__btn:hover span {
+  cursor: pointer;
+}
+.craft {
+  width: 100%;
+  height: 390px;
+  background-image: url('../img/about-the-game/background-craft.png');
+  background-size: cover;
+  background-position: right;
+  padding: 0 50% 0 9%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.craft h3 {
+  font-size: 50px;
+}
+.craft p {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: #c4c4c4;
+}
+.craft__nps {
+  margin-top: 3.5%;
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+.craft__nps a {
+  width: 100px;
+}
+.craft__nps a .craft__one-nps {
+  width: 100%;
+}
+.craft__one-nps {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.craft__one-nps img {
+  border: 3px solid #3a3a3a;
+  width: 100%;
+}
+.craft__one-nps p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.craft__one-nps:hover img {
+  box-shadow: 0 0 6px rgba(176, 122, 88, 0.829);
+  cursor: pointer;
+  border: 3px solid #634a3b;
+}
+.craft__one-nps:hover p {
+  cursor: pointer;
+}
+.satellites {
+  width: 100%;
+  height: 390px;
+  background-image: url('../img/about-the-game/background-companion.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.satellites__info {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  margin-top: 5.5%;
+  width: 56%;
+}
+.satellites__info h3 {
+  text-align: center;
+  font-size: 52px;
+}
+.satellites__info p {
+  margin: -1% 0 1%;
+  font-size: 19px;
+  text-align: center;
+  color: #c4c4c4;
+}
+.satellites__buttons {
+  margin-top: 1%;
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+}
+.satellites__buttons a {
+  width: 250px;
+}
+.satellites__buttons a .satellites__one-btn {
+  width: 100%;
+  padding: 15px 0;
+}
+.satellites__one-btn {
+  background-color: #523132;
+  width: 250px;
+  text-align: center;
+  padding: 15px 0;
+}
+.satellites__one-btn span {
+  font-size: 20px;
+}
+.satellites__one-btn:hover {
+  background-color: #362021;
+  cursor: pointer;
+}
+.satellites__one-btn:hover span {
+  cursor: pointer;
+}
