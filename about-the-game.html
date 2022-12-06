@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Diablo III</title>
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<link rel="stylesheet" type="text/css" href="../Coursework/Css/about-the-game.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-800.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-500.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-from-2000.css">
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	</head>
+	<body id="body">
+		<header>
+			<div class="menu">
+				<ul class="menu__list">
+					<li>
+						<a href="index.html"><img class="menu__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li><a href="about-the-game.html">Об игре</a></li>
+					<li><a href="error-404.html">Персонажи</a></li>
+					<li><a href="error-404.html">Локации</a></li>
+					<li><a href="error-404.html">История игрового мира</a></li>
+					<li><a href="error-404.html">Материалы</a></li>
+				</ul>
+				<h1>Diablo III</h1>
+			</div>
+			<div class="menu-for-mobile">
+				<ul class="menu-for-mobile__list">
+					<li class="not-h1">
+						Diablo III 
+					</li>
+					<li>
+						<a href="index.html"><img class="menu-for-mobile__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li>
+						<img onclick="myFunction()" class="dropbtn menu-for-mobile__icon-menu" src="img/menu-icon-mobile.svg" alt="icon">
+						<div class="menu-dropdown-block">
+							<ul id="myDropdown" class="dropdown-content">
+								<li><a href="about-the-game.html">Об игре</a></li>
+								<li><a href="error-404.html">Персонажи</a></li>
+								<li><a href="error-404.html">Локации</a></li>
+								<li><a href="error-404.html">История игрового мира</a></li>
+								<li><a href="error-404.html">Материалы</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="block-under-menu"></div>
+		</header>
+		<section class="introduction">
+			<div class="introduction__block-1">
+				<div class="introduction__info">
+					<h2>ВВЕДЕНИЕ</h2>
+					<p>Diablo III – игра в жанре action-RPG. Её события разворачиваются в тёмном и загадочном фэнтэзийном мире – Санктуарии.</p>
+					<p>Вы будете управлять героем и сражаться с чудовищами, что поджидают жителей Санкутария в тёмных уголках мира. Нелёгкое, но достойное испытание быстроты реакции и смекалки. Вы будете побеждать бесчисленные толпы монстров и вступать в бой с боссами</p>
+				</div>
+				<div class="introduction__video">
+					<video autoplay loop muted src="video/gameplay-video.mp4"></video>
+					<div class="introduction__btn" onclick="NotReadyFunction()">
+						<span>Игровой процесс</span>
+					</div>
+				</div>
+			</div>
+			<div class="introduction__block-2">
+				<h3>Прокачка персонажа</h3>
+				<p>Чем дальше вы продвинетесь, тем больше опыта, навыков и мощных артефактов вы получите</p>
+				<div class="introduction__img">
+					<div class="introduction__img-one introduction__img-one--first"></div>
+					<div class="introduction__img-one introduction__img-one--second"></div>
+					<div class="introduction__img-one introduction__img-one--third"></div>
+				</div>
+			</div>
+		</section>
+		<section class="equipment">
+			<h3>ПРЕДМЕТЫ И ЭКИПИРОВКА</h3>
+			<p>По ходу игры в Diablo III в ваши руки будет попадать самое разнообразное снаряжение. Каждый убитый монстр с определенной вероятностью оставит после себя броню или оружие. Трофеи могут храниться в каждом сундуке и лежать под каждым трупом.</p>
+			<p>Если вы видите на земле предмет, выделите его и подберите. Он будет сверкать, чтобы привлечь ваше внимание, и в течение некоторого времени вы сможете видеть его название. Так вы точно узнаете, чем собираетесь обзавестись.</p>
+			<div class="equipment__btn" onclick="NotReadyFunction()">
+				<span>Подробнее</span>
+			</div>
+		</section>
+		<section class="craft">
+			<h3>РЕМЕСЛО</h3>
+			<p>Когда вы завоюете доверие этих мастеров, то сможете прибегать к их услугам в городах и в своем лагере. Но для работы ремесленникам потребуются особые материалы и золото, и предоставить их должны вы.</p>
+			<div class="craft__nps">
+				<div class="craft__one-nps" onclick="NotReadyFunction()">
+					<img src="img/about-the-game/blacksmith.png" alt="blacksmith">
+					<p>Кузнец</p>
+				</div>
+				<div class="craft__one-nps" onclick="NotReadyFunction()">
+					<img src="img/about-the-game/jeweler.png" alt="jeweler">
+					<p>Ювелир</p>
+				</div>
+				<div class="craft__one-nps" onclick="NotReadyFunction()">
+					<img src="img/about-the-game/mystic.png" alt="mystic">
+					<p>Гадалка</p>
+				</div>
+			</div>
+		</section>
+		<section class="satellites">
+			<div class="satellites__info">
+				<h3>СПУТНИКИ</h3>
+				<p>Всегда готовые к бою помощники, которые будут вместе с вами биться со злом. Они станут сопровождать вас за пределами города и нападать на всех, кто вам угрожает. Кроме того, они обладают особыми боевыми умениями</p>
+			</div>
+			<div class="satellites__buttons">
+				<div class="satellites__one-btn" onclick="NotReadyFunction()">
+					<span>Заклинательница</span>
+				</div>
+				<div class="satellites__one-btn" onclick="NotReadyFunction()">
+					<span>Храмовник</span>
+				</div>
+				<div class="satellites__one-btn" onclick="NotReadyFunction()">
+					<span>Негодяй</span>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__info">
+				<div class="footer__btn"><a href="https://eu.diablo3.blizzard.com/ru-ru/" target="_blank"><span>Перейти на оф.сайт Diablo III</span></a></div>
+				<div class="footer__platforms">
+					<img class="battle-net" src="img/footer/battle-net.png" alt="battle.net">
+					<img src="img/footer/nintendo-switch.png" alt="nintendo switch">
+					<img class="xbox" src="img/footer/xbox-one.png" alt="xbox one">
+					<img src="img/footer/play-station-4.png" alt="play station 4">
+				</div>
+			</div>
+			<div class="footer__img">
+				<p>Фан. сайт по игре Diablo III<br>Все права принадлежат<br>компании Blizzard Entertainment</p><br>
+			</div>
+		</footer>
+		
+		<div id="snackbar">
+			<div class="alert-content">
+				<img src="img/img-alert.png" alt="icon">
+				<div class="alert-content__info">
+					<h5>А куда переходить?</h5>
+					<p>Попытайтесь перейти на страницу, которая не готова, на любом уровне сложности</p>
+					<p>Страница в разработке</p>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/main.js"></script>
+	</body>
+</html>

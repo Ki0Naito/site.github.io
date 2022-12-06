@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Diablo III</title>
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<link rel="stylesheet" type="text/css" href="../Coursework/Css/locations-act-1.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-800.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-500.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-from-2000.css">
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	</head>
+	<body id="body">
+		<header>
+			<div class="menu">
+				<ul class="menu__list">
+					<li>
+						<a href="index.html"><img class="menu__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li><a href="about-the-game.html">Об игре</a></li>
+					<li><a href="error-404.html">Персонажи</a></li>
+					<li><a href="error-404.html">Локации</a></li>
+					<li><a href="error-404.html">История игрового мира</a></li>
+					<li><a href="error-404.html">Материалы</a></li>
+				</ul>
+				<h1>Diablo III</h1>
+			</div>
+			<div class="menu-for-mobile">
+				<ul class="menu-for-mobile__list">
+					<li class="not-h1">
+						Diablo III 
+					</li>
+					<li>
+						<a href="index.html"><img class="menu-for-mobile__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li>
+						<img onclick="myFunction()" class="dropbtn menu-for-mobile__icon-menu" src="img/menu-icon-mobile.svg" alt="icon">
+						<div class="menu-dropdown-block">
+							<ul id="myDropdown" class="dropdown-content">
+								<li><a href="about-the-game.html">Об игре</a></li>
+								<li><a href="error-404.html">Персонажи</a></li>
+								<li><a href="error-404.html">Локации</a></li>
+								<li><a href="error-404.html">История игрового мира</a></li>
+								<li><a href="error-404.html">Материалы</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="block-under-menu"></div>
+		</header>
+		<section class="map">
+			<div class="map__info">
+				<h2>АКТ I</h2>
+				<h3>Новый Тристрам</h3>
+				<p>Тристра́м (англ. Tristram) – город <br>(скорее деревня в несколько домов), <br>являющийся одним из центральных <br>мест действий в серии игр Diablo</p>
+			</div>
+			<div class="map__tristram-map">
+				<img src="img/locations-act-1/map.png" alt="map">
+			</div>
+			<div class="map__mark">
+				<img src="img/locations-act-1/job-label.png" alt="job">
+				<p> - означает наличие на локации задания</p>
+			</div>
+			<div class="map__mark">
+				<img class="boss" src="img/locations-act-1/boss-mark.png" alt="boss">
+				<p> - означает наличие на локации босса</p>
+			</div>
+			<hr>
+		</section>
+		<div class="locations">
+			<div class="locations__buttons">
+				<div class="locations__btn tablink focus" onclick="openPage('all-cards', this, '#7C4345')">
+					<span>Все локации</span>
+				</div>
+				<div class="locations__btn tablink locations__btn--second" onclick="openPage('with-boss-cards', this, '#7C4345')">
+					<span>Локации с боссами</span>
+				</div>
+			</div>
+			<div id="all-cards" class="locations__cards tabcontent">
+				<div class="locations__one-card" id="myBtn-1">
+					<p>Новый Тристрам</p>
+				</div>
+				<div class="locations__one-card locations__one-card--wailing-hollow" id="myBtn-2">
+					<p>Лощина Стенаний</p>
+				</div>
+				<div class="locations__one-card locations__one-card--cemetery" id="myBtn-3">
+					<p class="shift-to-the-right">Кладбище Проклятых</p>
+				</div>
+				<div class="locations__one-card locations__one-card--dead-fields" id="myBtn-4">
+					<p>Гиблые поля</p>
+				</div>
+				<div class="locations__one-card locations__one-card--flooded-temple" id="myBtn-5">
+					<p>Затопленный храм</p>
+				</div>
+				<div class="locations__one-card locations__one-card--rotting-forest" id="myBtn-6">
+					<p>Гниющий лес</p>
+				</div>
+				<div class="locations__one-card locations__one-card--ruins-of-tristram" id="myBtn-7">
+					<p>Руины Тристрама</p>
+				</div>
+				<div class="locations__one-card locations__one-card--the-cathedral" id="myBtn-8">
+					<p>Собор</p>
+				</div>
+				<div class="locations__one-card locations__one-card--royal-tombs with-boss" id="myBtn-9">
+					<p class="shift-to-the-right">Королевские гробницы</p>
+				</div>
+				<div class="locations__one-card locations__one-card--basement" id="myBtn-10">
+					<p class="shift-to-the-right">Подвал часовни Вортема</p>
+				</div>
+				<div class="locations__one-card locations__one-card--caves-of-arana with-boss" id="myBtn-11">
+					<p>Пещеры Араны</p>
+				</div>
+				<div class="locations__one-card locations__one-card--southern-highlands" id="myBtn-12">
+					<p>Южное Высокогорье</p>
+				</div>
+				<div class="locations__one-card locations__one-card--northern-highlands" id="myBtn-13">
+					<p>Северное Высокогорье</p>
+				</div>
+				<div class="locations__one-card locations__one-card--castle-courtyard" id="myBtn-14">
+					<p>Двор Замка</p>
+				</div>
+				<div class="locations__one-card locations__one-card--halls-of-agony with-boss" id="myBtn-15">
+					<p>Залы Агонии</p>
+				</div>
+			</div>
+			<div id="with-boss-cards" class="locations__cards tabcontent">
+				<div class="locations__one-card">
+					<p>Новый Тристрам</p>
+				</div>
+				<div class="locations__one-card locations__one-card--wailing-hollow">
+					<p>Лощина Стенаний</p>
+				</div>
+				<div class="locations__one-card locations__one-card--cemetery">
+					<p class="shift-to-the-right">Кладбище Проклятых</p>
+				</div>
+				<div class="locations__one-card locations__one-card--dead-fields">
+					<p>Гиблые поля</p>
+				</div>
+				<div class="locations__one-card locations__one-card--flooded-temple">
+					<p>Затопленный храм</p>
+				</div>
+				<div class="locations__one-card locations__one-card--rotting-forest">
+					<p>Гниющий лес</p>
+				</div>
+				<div class="locations__one-card locations__one-card--ruins-of-tristram">
+					<p>Руины Тристрама</p>
+				</div>
+				<div class="locations__one-card locations__one-card--the-cathedral">
+					<p>Собор</p>
+				</div>
+				<div class="locations__one-card locations__one-card--royal-tombs with-boss" id="myBtn-16">
+					<p class="shift-to-the-right">Королевские гробницы</p>
+				</div>
+				<div class="locations__one-card locations__one-card--basement">
+					<p class="shift-to-the-right">Подвал часовни Вортема</p>
+				</div>
+				<div class="locations__one-card locations__one-card--caves-of-arana with-boss" id="myBtn-17">
+					<p>Пещеры Араны</p>
+				</div>
+				<div class="locations__one-card locations__one-card--southern-highlands">
+					<p>Южное Высокогорье</p>
+				</div>
+				<div class="locations__one-card locations__one-card--northern-highlands">
+					<p>Северное Высокогорье</p>
+				</div>
+				<div class="locations__one-card locations__one-card--castle-courtyard">
+					<p>Двор Замка</p>
+				</div>
+				<div class="locations__one-card locations__one-card--halls-of-agony with-boss" id="myBtn-18">
+					<p>Залы Агонии</p>
+				</div>
+			</div>
+		</div>
+		<!-- Модальные окна -->
+		<div id="myModal-1" class="modal">
+			<div class="modal-content">
+				<div class="modal-content__info">
+					<h5>Новый Тристрам (безопасная зона)</h5>
+					<p>Новый Тристрам был построен рядом с руинами Старого Тристрама. Он был основан торговцами в неизвестном году после событий Diablo II, чтобы использовать для своей выгоды популярность легенд о Старом Тристраме. Там люди медленно успокаивались после страшных происшествий и строили город. После того, как Собор Тристрама, в котором проходили основные события Diablo, был разграблен, люди потеряли интерес, а город потерял популярность</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-2" class="modal">
+			<div class="modal-content modal-content--wailing-hollow">
+				<div class="modal-content__info">
+					<h5>Лощина Стенаний</h5>
+					<p>Затоптанные каменные тропы, фонари вдоль дорог, редко, но всё-же встречающиеся по пути лачуги - всё это указывает на пребывание жителей Тристрама на локации<br>
+					Но так было раньше, до появления монстров. Теперь же ворота, ведущие на лощину из Нового Тристрама, закрыты по приказу капитана. Заслужите доверие капитана и жителей, покажите на что способны и тогда вы сможете ступить на эти земли</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-3" class="modal">
+			<div class="modal-content modal-content--cemetery">
+				<div class="modal-content__info">
+					<h5>Кладбище Проклятых</h5>
+					<p>Заброшенное и очень опасное место. Мрачные склепы, разбитые плиты и надгробия, бесчисленные толпы выползающих из-под земли скелетов. Здесь вы не найдёте никого и ничего живого. Вся растительность давно засохла, а живые люди давно не посещают это место, так как понимают, что живыми не уйдут<br>
+					Посещая это место будьте готовы к скелетам, которые поджидают вас как на земле, так и под землёй</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-4" class="modal">
+			<div class="modal-content modal-content--dead-fields">
+				<div class="modal-content__info">
+					<h5>Гиблые поля</h5>
+					<p>Пустующее, забытое всеми место, кишащее монстрами, которые как не скрывают себя, так и прячутся в самых разных уголках местности, сливаясь с окружением, прячась в кустах и маскируясь под деревья<br>
+					Когда ступите на эти земли, помните одно простое правило: всё здесь пытается убить вас. Не забывается эту простую фразу и тогда, если вам хватит навыков и смелости, вы сможете пройти гиблые поля и остаться целыми</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-5" class="modal">
+			<div class="modal-content modal-content--flooded-temple">
+				<div class="modal-content__info">
+					<h5>Затопленный храм</h5>
+					<p>Храм доступен лишь нефалемам и то, что они вымерли много лет назад - выдумки. Вход в нее Аларик, вечный страж, охраняющий это проклятое место, откроет только после нахождения двух Светочей, Надежды и Славы, спрятанных в гробницах<br>
+					Само здание выглядит очень красивым. Оно было построено еще до Войны Греха. Когда-то давно храм назывался Сарцеум Эмпорис. Легенды гласят, что именно здесь ангелы делились своей мудростью с нефалемами</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-6" class="modal">
+			<div class="modal-content modal-content--rotting-forest">
+				<div class="modal-content__info">
+					<h5>Гниющий лес</h5>
+					<p>Гниль, падаль, смерть. Именно этими словами можно описать это место. Здесь нет ничего живого, а если и было, то давно уже гниёт. Смертельная вонь, грязь и падаль - идеальное место для монстров, которыми кишит эта местность<br>
+					Ещё помните правило, которое помогло пережить вам Гиблые поля? Отлично! Значит у вас есть шанс выжить и здесь</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-7" class="modal">
+			<div class="modal-content modal-content--ruins-of-tristram">
+				<div class="modal-content__info">
+					<h5>Руины Тристрама</h5>
+					<p>Разрушенные дома и ограды, заброшенные участки, засохшие деревья, кото-рые в некоторых случаях проросли прямо в домах, неубранная заброшенная территория. Жители Тристрама раньше никогда бы не поверили, что таким образом мможно описать их город. Несмотря на то, что раньше это был целый город, не стоит оослаблять бдительность.
+					Жителями этой местности уже давно стали различные монстры,
+					которые будут поджидать вас в самых неожиданных местах</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-8" class="modal">
+			<div class="modal-content modal-content--the-cathedral">
+				<div class="modal-content__info">
+					<h5>Собор</h5>
+					<p>Огромная четырёхуровневая территория, которую давно заполонили сектанты с их ручными монстрами. Ранее величественное место теперь разваливается по частям не только из-за времени, но и из-за нынешних обитателей собора, а также из-за всяческих ужасных пыток и ритуалов сектантов<br>
+					Посещая собор не забывайте про ритуалы призывов монстров, и про то, что вы можете остановить их</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-9" class="modal">
+			<div class="modal-content modal-content--royal-tombs">
+				<div class="modal-content__info">
+					<h5>Королевские гробницы</h5>
+					<p>Прикоснитесь к мечу Леорика и узрите сцену убийства короля. Видимо все случилось на этом самом месте - здесь, в этих тёмных коридорах, Лахданан лишил жизни своего обезумевшего короля<br>
+					Светом в этом тёмном, забытом всеми месте будете лишь вы. Вглядывайтесь в тьму, потому что она скрывает множество скелетов, готовых напасть в любую секунду</p>
+					<p>Наличие босса: Король-скелет Леорик</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-10" class="modal">
+			<div class="modal-content modal-content--basement">
+				<div class="modal-content__info">
+					<h5>Подвал часовни Вортема</h5>
+					<p>Маленький разрушенный подвал ранее был укрытием от монстров, а ныне уничтожен ими же<br>
+					Вы будете вынуждены увидеть эту разруху и зачистить это метсто, которое оказалось иллюзорной ловушкой именно для вас</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-11" class="modal">
+			<div class="modal-content modal-content--caves-of-arana">
+				<div class="modal-content__info">
+					<h5>Пещеры Араны</h5>
+					<p>Хитро переплетенные между собой ходы, тут и там кладки яиц, паутина по всюду и, конечно же, паучки и пауки. Умирающий человек предостережет вас: "не тревожь паучьи яйца". Быть может его стоит послушать?<br>
+					В конце локации вас ожидают Покои королевы Араны, матери всех этих страшных созданий</p>
+					<p>Наличие босса: Паучья Королева Арана</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-12" class="modal">
+			<div class="modal-content modal-content--southern-highlands">
+				<div class="modal-content__info">
+					<h5>Южное Высокогорье</h5>
+					<p>Место обитания хазра, открытая местность в серых тонах. Тут и там прячутся древошкуры, прикинувшись как бы деревьями. Где-то севернее центра земель находится повозка Карины с украденным посохом хазра. А у северного края есть закуток, в котором Темный культист призывает духов. Это место может показаться отдушиной, из-за присутствия хоть и разрушенной, но всё-же цивилизации. Но не стоит расслабляться</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-13" class="modal">
+			<div class="modal-content modal-content--northern-highlands">
+				<div class="modal-content__info">
+					<h5>Северное Высокогорье</h5>
+					<p>Поднимайтесь всё выше и из Южного высокогорья вы попадёте в Северное. Следов людской цивилизации тут уже нет, однако вся территория заполонена Воинами клана Черной Луны и Злобной мрачности. Воинами, которые будут поджидать вас повсюду и сразу же атакуют, если увидят вас. Не хотите, чтобы те увеличили свою мощь вдвое - уничтожайте ритуальные барабаны</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-14" class="modal">
+			<div class="modal-content modal-content--castle-courtyard">
+				<div class="modal-content__info">
+					<h5>Двор Замка</h5>
+					<p>Небольшая уютная местность, разделяющая Замок Леорика и его охотничьи угодья. Ранее величественный двор превратился в разбитый и заросший сад. Потрескавшиеся ограды и статуи, разбитая и заросшая кладка, неопрятные растения - всё это говорит о том, насколько давно был заброшен этот двор. Чего-либо стоящего тут давно уже не осталось, всё растащили облюбовавшие эту местность бандиты и сектанты</p>
+					<p>Наличие босса: нет</p>
+				</div>
+		    </div>
+		</div>
+		<div id="myModal-15" class="modal">
+			<div class="modal-content modal-content--halls-of-agony">
+				<div class="modal-content__info">
+					<h5>Залы Агонии</h5>
+					<p>Жуткое огромное трехуровневое подземелье, кишащее самыми разнообразными монстрами. Повсюду цепи и клетки, под решетками в полу лава, а на каждом втором повороте стоит машина для пыток. Люди не могут попасть сюда сами, если, конечно, они не смелые или глупые, чтобы зайти в это место. В основном сюда попадают те несчастные, что угодили в ловушку монстров или сектантов</p>
+					<p>Наличие босса: Мясник (босс акта)</p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__info">
+				<a class="footer__btn" href="https://eu.diablo3.blizzard.com/ru-ru/" target="_blank"><span>Перейти на оф.сайт Diablo III</span></a>
+				<div class="footer__platforms">
+					<img src="img/footer/battle-net.png" alt="battle.net">
+					<img src="img/footer/nintendo-switch.png" alt="nintendo switch">
+					<img src="img/footer/xbox-one.png" alt="xbox one">
+					<img src="img/footer/play-station-4.png" alt="play station 4">
+				</div>
+			</div>
+			<div class="footer__img">
+				<p>Фан. сайт по игре Diablo III<br>Все права принадлежат<br>компании Blizzard Entertainment</p><br>
+			</div>
+		</footer>
+		
+		<script src="js/locations-act-1.js"></script>
+	</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Diablo III</title>
+		<link rel="stylesheet" type="text/css" href="Css/style.css">
+		<link rel="stylesheet" type="text/css" href="../Coursework/Css/main.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-800.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-to-500.css">
+		<link rel="stylesheet" type="text/css" href="Css/media-from-2000.css">
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	</head>
+	<body id="body">
+		<header>
+			<div class="menu">
+				<ul class="menu__list">
+					<li>
+						<a href="index.html"><img class="menu__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li><a href="about-the-game.html">Об игре</a></li>
+					<li><a href="error-404.html">Персонажи</a></li>
+					<li><a href="error-404.html">Локации</a></li>
+					<li><a href="error-404.html">История игрового мира</a></li>
+					<li><a href="error-404.html">Материалы</a></li>
+				</ul>
+				<h1>Diablo III</h1>
+			</div>
+			<div class="menu-for-mobile">
+				<ul class="menu-for-mobile__list">
+					<li class="not-h1">
+						Diablo III 
+					</li>
+					<li>
+						<a href="index.html"><img class="menu-for-mobile__logo" src="img/logo.png" alt="logo"></a>
+					</li>
+					<li>
+						<img onclick="myFunction()" class="dropbtn menu-for-mobile__icon-menu" src="img/menu-icon-mobile.svg" alt="icon">
+						<div class="menu-dropdown-block">
+							<ul id="myDropdown" class="dropdown-content">
+								<li><a href="about-the-game.html">Об игре</a></li>
+								<li><a href="error-404.html">Персонажи</a></li>
+								<li><a href="error-404.html">Локации</a></li>
+								<li><a href="error-404.html">История игрового мира</a></li>
+								<li><a href="error-404.html">Материалы</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="block-under-menu"></div>
+			<div class="background-header">
+				<div class="background-header__box-logo">
+					<img src="img/main/diablo-lll-logo.png" alt="Diablo 3">
+				</div>
+				<div class="background-header__diablo"></div>
+			</div>
+		</header>
+		<section class="section-story">
+			<div class="section-story__info">
+				<h2>Вечное противостояние</h2>
+				<p>С самого сотворения мироздания ангелы Небес и демоны Преисподней ведут нескончаемую войну, известную как Вечное противостояние. Пройдя через тысячи битв, несколько воинов с обеих сторон так устали от сражений, что решили найти себе новый дом, где могли бы мирно сосуществовать.</p>
+				<p>С помощью могущественного артефакта под названием камень мироздания они создали Санктуарий — мир, сокрытый от глаз и Небес, и Преисподней.</p>
+				<div class="section-story__btn" onclick="NotReadyFunction()">
+					<span>Подробнее</span>
+				</div>
+			</div>
+			<img class="section-story__img" src="img/main/angel-and-demon.png" alt="Diablo and Tyrael">
+		</section>
+		<section class="section-location">
+			<h2>Санктуарий - игровой мир. 5 актов - 5 локаций</h2>
+			<p>Путешествуйте по разным уголкам Санктуария, находите ценные предметы, выполняйте задания и встречайте новых спутников. Каждая новая локация будет отличаться, будет таить в себе новые секреты и скрывать новых врагов</p>
+			<div class="section-location__5-card">
+				<a href="locations-act-1.html">
+					<div class="section-location__card">
+						<h3>Тристрам</h3>
+						<p>Торговый городок</p>
+					</div>
+				</a>
+				<div class="section-location__card section-location__card--caldeum" onclick="NotReadyFunction()">
+					<h3>Калдей</h3>
+					<p>Жемчужина востока</p>
+				</div>
+				<div class="section-location__card section-location__card--arreat" onclick="NotReadyFunction()">
+					<h3>Гора Арреат</h3>
+					<p>Врата в ад</p>
+				</div>
+				<div class="section-location__card section-location__card--heaven" onclick="NotReadyFunction()">
+					<h3>Высшие Небеса</h3>
+					<p>Город Ангелов</p>
+				</div>
+				<div class="section-location__card section-location__card--westmarch" onclick="NotReadyFunction()">
+					<h3>Вестмарш</h3>
+					<p>Лагерь выживших</p>
+				</div>
+			</div>
+		</section>
+		<section class="section-heroes">
+			<div class="section-heroes__info">
+				<h3>В Diablo III вы играете за героя одного из семи классов </h3>
+				<p>У каждого героя свой облик, стиль и свои уникальные способности</p>
+				<div class="section-heroes__cards">
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/barbarian.png" alt="barbarian">
+						<p>Варвар</p>
+					</div>
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/witch-doctor.png" alt="witch doctor">
+						<p>Колдун</p>
+					</div>
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/crusader.png" alt="crusader">
+						<p>Крестоносец</p>
+					</div>
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/monk.png" alt="monk">
+						<p>Монах</p>
+					</div>
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/necromancer.png" alt="necromancer">
+						<p>Некромант</p>
+					</div>
+					<a href="characters-demon-hunter.html">
+						<div class="one-hero-card">
+							<img src="img/main/demon-hunter.png" alt="demon hunter">
+							<p>Охотник на демонов</p>
+						</div>
+					</a>
+					<div class="one-hero-card" onclick="NotReadyFunction()">
+						<img src="img/main/wizard.png" alt="wizard">
+						<p>Чародей</p>
+					</div>
+				</div>
+			</div>
+			<img class="section-heroes__bg-necromancer" src="img/main/background-necromancer.png" alt="Necromancer">
+		</section>
+		<footer class="footer">
+			<div class="footer__info">
+				<a class="footer__btn" href="https://eu.diablo3.blizzard.com/ru-ru/" target="_blank"><span>Перейти на оф.сайт Diablo III</span></a>
+				<div class="footer__platforms">
+					<img src="img/footer/battle-net.png" alt="battle.net">
+					<img src="img/footer/nintendo-switch.png" alt="nintendo switch">
+					<img src="img/footer/xbox-one.png" alt="xbox one">
+					<img src="img/footer/play-station-4.png" alt="play station 4">
+				</div>
+			</div>
+			<div class="footer__img">
+				<p>Фан. сайт по игре Diablo III<br>Все права принадлежат<br>компании Blizzard Entertainment</p><br>
+			</div>
+		</footer>
+		
+		<div id="snackbar">
+			<div class="alert-content">
+				<img src="img/img-alert.png" alt="icon">
+				<div class="alert-content__info">
+					<h5>А куда переходить?</h5>
+					<p>Попытайтесь перейти на страницу, которая не готова, на любом уровне сложности</p>
+					<p>Страница в разработке</p>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
+<!-- 4-5 сек -->
